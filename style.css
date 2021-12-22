@@ -1,0 +1,371 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    background-color: white;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 0px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+#header-img{
+    width: 50px;
+    height: 40px;
+    margin: 20px 10px 0px 40px;
+}
+#company-name{
+    font-size: 40px;
+    color: green;
+    margin: 15px 10px 0px 0px;
+    font-family: fantasy;
+}
+#logo-name{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-start;
+}
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    flex-direction: row;
+    padding-top: 15px;
+}
+.nav-link{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-decoration: none;
+    font-size: large;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+h2{;
+    margin-top: 30px; 
+    margin-bottom: 0px;
+    font-size: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 550;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#email{
+    width: 180%;
+    margin-top: 25px;
+    padding: 5px 0px 5px 5px;
+    margin-bottom: 0px;
+}
+#submit{
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    padding: 5px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 15px;
+    background-color:rgb(154, 200, 240);
+}
+#submit:hover{
+    background-color:  rgb(163, 250, 141);
+}
+
+
+#all-feature{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 48.215%;
+}
+
+#feature-1{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+}
+#premium-material{
+    width: 100px;
+    height: 100px;
+    margin-right: 70px;
+}
+
+#inner-text-1{
+    display: flex;
+    flex-direction: column;
+}
+
+#heading-1{
+    font-size: 20px;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+#description-1{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+#feature-2{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+}
+#fast-shipping{
+    width: 100px;
+    height: 100px;
+    margin-right: 70px;
+}
+
+#inner-text-2{
+    display: flex;
+    flex-direction: column;
+}
+
+#heading-2{
+    font-size: 20px;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+#description-2{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+#feature-3{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+}
+#quality-assurance{
+    width: 100px;
+    height: 100px;
+    margin-right: 70px;
+}
+
+#inner-text-3{
+    display: flex;
+    flex-direction: column;
+}
+
+#heading-3{
+    font-size: 20px;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+#description-3{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#video{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+#price-tag{
+    display: flex;
+    flex-direction: row;
+}
+
+#price-tag-1{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border-color: black;
+    border-width: 1px ;
+    border-radius: 2%;
+    border-style: solid;
+    margin-right: 30px;
+}
+#tag-head-1{
+    margin-top: 0px;
+    padding: 7px 80px 7px 80px;
+    text-align: center;
+    font-size: 25px;
+    background-color: rgb(228, 226, 226);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 0px;
+}
+#tag-price-1{
+    font-size: 30px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+.tag-specs-1{
+    margin-bottom: 0px;
+    margin-top: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px ;
+}
+#tag-select-1{
+    cursor: pointer;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 550;
+    background-color: yellow;
+    padding: 5px 0px 5px 0px;
+    margin:30px 35% 20px 35%;
+}
+#tag-select-1:hover{
+    cursor: pointer;
+    background-color: rgb(122, 243, 122);
+}
+
+
+#price-tag-2{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border-color: black;
+    border-width: 1px ;
+    border-radius: 2%;
+    border-style: solid;
+    margin-right: 30px;
+}
+#tag-head-2{
+    margin-top: 0px;
+    padding: 7px 80px 7px 80px;
+    text-align: center;
+    font-size: 25px;
+    background-color: rgb(228, 226, 226);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 0px;
+}
+#tag-price-2{
+    font-size: 30px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+.tag-specs-2{
+    margin-bottom: 0px;
+    margin-top: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px ;
+}
+#tag-select-2{
+    font-size: 20px;
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 550;
+    background-color: yellow;
+    padding: 5px 0px 5px 0px;
+    margin:30px 35% 20px 35%;
+}
+#tag-select-2:hover{
+    cursor: pointer;
+    background-color: rgb(122, 243, 122);
+}
+
+
+
+#price-tag-3{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border-color: black;
+    border-width: 1px ;
+    border-radius: 2%;
+    border-style: solid;
+}
+#tag-head-3{
+    margin-top: 0px;
+    padding: 7px 80px 7px 80px;
+    text-align: center;
+    font-size: 25px;
+    background-color: rgb(228, 226, 226);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 0px;
+}
+#tag-price-3{
+    font-size: 30px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+.tag-specs-3{
+    margin-bottom: 0px;
+    margin-top: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px ;
+}
+#tag-select-3{
+    cursor: pointer;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 550;
+    background-color: yellow;
+    padding: 5px 0px 5px 0px;
+    margin:30px 35% 20px 35%;
+}
+#tag-select-3:hover{
+    cursor: pointer;
+    background-color: rgb(122, 243, 122);
+}
+
+#end{
+    background-color: rgb(228, 226, 226);
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 25px 20px 15px 55%;
+    
+}
+#line-1{
+    margin-right: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.line-1-end{
+    text-decoration: none;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin-left: 30px;
+}
+#end-line{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 0px;
+}
+
+@media all and (max-width:500px){
+    body{
+        color:red;
+    }
+}
