@@ -5,6 +5,9 @@ body{
     padding: 0px;
     background-color: white;
 }
+#astrox88{
+    color:orange;
+}
 header{
     display: flex;
     flex-direction: row;
